@@ -123,6 +123,25 @@ color: var(--main-color);
       background-color: var(--background-color);
    }
 
+   .conteiner {
+      max-width: 1200px;
+      margin: 10px auto;
+   }
+
+   .card-set {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+   }
+
+   .card {
+      flex-basis: calc((100% - 2 * 10px) / 3);
+      padding: 10px;
+      background: #FFFFFF;
+      border: 1px solid #EEEEEE;
+   }
+
    footer {
    background-color: var(--background-color);
    }
