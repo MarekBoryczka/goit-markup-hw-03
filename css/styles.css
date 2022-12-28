@@ -17,9 +17,9 @@ body {
 /*  font-family: 'Raleway', sans-serif;  */
 
 .header_container {
-  max-width: 1200px;
+  max-width: 1600px;
   border-bottom: 1px solid #ececec;
-  margin-left: 215px;
+  margin-left: 0px;
 }
 
 .order {
@@ -120,16 +120,26 @@ body {
   background-color: var(--brand-color);
 }
 
+.main_section_1 {
+  background-color: var(--background-color);
+  width: 1600px;
+  height: 600px;
+}
+
+.main_background {
+  background-color: var(--background-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .main_title {
   color: var(--text_on_background-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
   text-transform: uppercase;
-}
-
-.main_background {
-  background-color: var(--background-color);
 }
 
 .div_container {
