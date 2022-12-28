@@ -19,6 +19,7 @@ body {
 .header_container {
   max-width: 1200px;
   border-bottom: 1px solid #ececec;
+  margin-left: 215px;
 }
 
 .order {
@@ -87,15 +88,14 @@ body {
   color: var(--brand-color);
 }
 
-/* .main_conteiner {
-  display: flex;
+.filters_container {
   max-width: 1200px;
-  border: 2px solid green;
-} */
+  padding: 0px;
+  margin-left: 215px;
+}
 
 .main_filters {
   display: flex;
-  max-width: 1200px;
   justify-content: center;
   list-style: none;
 }
@@ -134,22 +134,24 @@ body {
 
 .div_container {
   max-width: 1200px;
-  padding: 0%;
-  margin: 0%;
+  padding: 0px;
+  margin: 215px;
 }
 
 .card-set {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
+  padding: 0%;
   gap: 30px;
 }
 
 .card {
   /*background: #ffffff;*/
   margin: 0%;
+  padding: 0%;
   border: 1px solid #eeeeee;
-  flex-basis: 25%;
+  flex-basis: ((100% - 2 * 30px) / 3);
 }
 
 footer {
