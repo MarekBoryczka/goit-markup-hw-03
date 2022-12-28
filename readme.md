@@ -1,1 +1,1 @@
-https://marekboryczka.github.io/goit-markup-hw-03/g
+https://marekboryczka.github.io/goit-markup-hw-03/
