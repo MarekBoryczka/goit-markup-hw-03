@@ -16,6 +16,11 @@ body {
 }
 /*  font-family: 'Raleway', sans-serif;  */
 
+.header_container {
+  max-width: 1200px;
+  border-bottom: 1px solid #ececec;
+}
+
 .order {
   color: var(--text_on_background-color);
   background-color: var(--brand-color);
@@ -82,8 +87,15 @@ body {
   color: var(--brand-color);
 }
 
+/* .main_conteiner {
+  display: flex;
+  max-width: 1200px;
+  border: 2px solid green;
+} */
+
 .main_filters {
   display: flex;
+  max-width: 1200px;
   justify-content: center;
   list-style: none;
 }
@@ -120,8 +132,10 @@ body {
   background-color: var(--background-color);
 }
 
-.conteiner {
+.div_container {
   max-width: 1200px;
+  padding: 0%;
+  margin: 0%;
 }
 
 .card-set {
@@ -132,10 +146,10 @@ body {
 }
 
 .card {
-  flex-basis: calc((100% - 2 * 10px) / 3);
-  padding: 10px;
-  background: #ffffff;
+  /*background: #ffffff;*/
+  margin: 0%;
   border: 1px solid #eeeeee;
+  flex-basis: 25%;
 }
 
 footer {
