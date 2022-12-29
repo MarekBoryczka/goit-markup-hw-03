@@ -22,16 +22,6 @@ body {
   margin-left: 0px;
 }
 
-.order {
-  color: var(--text_on_background-color);
-  background-color: var(--brand-color);
-}
-.order,
-.main_filter,
-.footer_adress {
-  cursor: pointer;
-}
-
 .span_logo,
 .header_logo,
 .footer_logo {
@@ -120,18 +110,16 @@ body {
   background-color: var(--brand-color);
 }
 
-.main_section_1 {
+.main_background {
   background-color: var(--background-color);
   width: 1600px;
   height: 600px;
-}
-
-.main_background {
-  background-color: var(--background-color);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0px;
+  padding: 0px;
 }
 
 .main_title {
@@ -140,6 +128,23 @@ body {
   font-size: 44px;
   line-height: 60px;
   text-transform: uppercase;
+  padding: 0px;
+  margin: 0px;
+}
+
+.order {
+  width: 200px;
+  height: 50px;
+  color: var(--text_on_background-color);
+  background-color: var(--brand-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.order,
+.main_filter,
+.footer_adress {
+  cursor: pointer;
 }
 
 .div_container {
