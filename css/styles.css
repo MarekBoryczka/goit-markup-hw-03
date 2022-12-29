@@ -4,6 +4,7 @@
   --background-color: #2f303a;
   --text_on_background-color: #ffffff;
   --filter_background-color: #f5f4fa;
+  --lorem-ipsum-color: #757575;
 }
 
 * {
@@ -145,6 +146,50 @@ body {
 .main_filter,
 .footer_adress {
   cursor: pointer;
+}
+
+.main_advantages {
+  max-width: 1200px;
+  height: 581px;
+  padding: 0px;
+  margin-left: 215px;
+  display: block;
+}
+
+.main_list_lorem {
+  margin: 0px;
+  padding: 0px;
+}
+
+.main_lorem_ipsum {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  margin: 0px;
+}
+
+.item_lorem p {
+  color: var(--lorem-ipsum-color);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.our_advantages {
+  display: block;
+}
+
+.advantages_title {
+  text-align: center;
+}
+
+.advantages_images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.advantages_images > .item:not(:last-child) {
+  padding-right: 30px;
 }
 
 .div_container {
