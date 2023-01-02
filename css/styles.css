@@ -125,10 +125,16 @@ body {
   background-color: var(--brand-color);
 }
 
+.main_section_1 {
+  height: 600px;
+  background-color: var(--background-color);
+  display: flex;
+  justify-content: center;
+}
+
 .main_background {
   background-color: var(--background-color);
-  width: 1600px;
-  height: 600px;
+  max-width: 1200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -142,6 +148,7 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
+  text-align: center;
   text-transform: uppercase;
   padding: 0px;
   margin: 0px;
