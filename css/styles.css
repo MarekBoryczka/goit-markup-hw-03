@@ -24,7 +24,6 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
   text-decoration: none;
 }
 
@@ -41,9 +40,13 @@ body {
   color: var(--text_on_background-color);
 }
 
+.header_border {
+  border-bottom: 1px solid #ececec;
+}
+
 .header_container {
   max-width: 1200px;
-  border-bottom: 1px solid #ececec;
+  height: 80px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -53,7 +56,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 32px 0;
+  margin: 0px;
 }
 
 .header_list_1 {
@@ -67,7 +70,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 32px 0;
+  margin: 0px;
 }
 
 .header_list_1 > .item:not(:last-child) {
@@ -78,9 +81,17 @@ body {
   margin-right: 50px;
 }
 
-.header_nav,
-.header_contact {
+.header_nav {
   color: var(--main-color);
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.header_contact {
+  color: var(--lorem-ipsum-color);
+  font-weight: 500;
+  font-size: 14px;
   text-decoration: none;
 }
 
@@ -95,8 +106,8 @@ body {
 
 .filters_container {
   max-width: 1200px;
-  padding: 74px 0px 24px 0px;
-  margin-left: 215px;
+  padding: 94px 0px 24px 0px;
+  margin: 0px auto;
 }
 
 .main_filters {
@@ -108,7 +119,7 @@ body {
 .main_filter {
   color: var(--main-color);
   background-color: var(--filter_background-color);
-  height: 38px;
+  padding: 6px 22px;
   border: none;
   border-radius: 4px;
   text-align: center;
@@ -223,18 +234,6 @@ Do zastanowienia padding
   padding-right: 30px;
 }*/
 
-/*
-.main_our_team {
-  max-width: 1600px;
-  height: 648px;
-  background-color: var(--our-team-color);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 0px;
-  padding-left: 215px;
-} */
-
 .section_our_team {
   background-color: var(--our-team-color);
   padding: 94px 0px;
@@ -286,7 +285,7 @@ Do zastanowienia padding
 .div_container {
   max-width: 1200px;
   padding: 0px;
-  margin-left: 215px;
+  margin: 0px auto;
 }
 
 .card-set {
@@ -298,7 +297,6 @@ Do zastanowienia padding
 }
 
 .card {
-  /*background: #ffffff;*/
   margin: 0%;
   padding: 0%;
   border: 1px solid #eeeeee;
