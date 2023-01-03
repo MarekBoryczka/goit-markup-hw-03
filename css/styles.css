@@ -24,7 +24,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 35.96px;
+  line-height: 31px;
   text-decoration: none;
 }
 
@@ -299,23 +299,27 @@ Do zastanowienia padding
   padding-left: 24px;
 }
 
-footer {
+.footer {
   background-color: var(--background-color);
-  width: 1600px;
-  height: 252px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-left: 215px;
+  padding: 60px 0px;
 }
 
-.div_adress {
+.footer_div {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+.list_adress {
   list-style: none;
-  padding-left: 0px;
+  padding: 0px;
+  margin: 0px;
 }
 
 .footer_adress {
   color: var(--text_on_background-color);
+  line-height: 24px;
+  padding: 0px;
+  margin: 0px;
   font-style: normal;
   text-decoration: none;
 }
