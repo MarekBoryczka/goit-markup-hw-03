@@ -261,6 +261,17 @@ Do zastanowienia padding
   padding: 0px;
 }
 
+.item_team {
+  width: 270px;
+  height: 368px;
+  background: #ffffff;
+  /* material shadow v1 */
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
 .item_team h3 {
   font-weight: 500;
   text-align: center;
@@ -311,15 +322,30 @@ Do zastanowienia padding
 
 .list_adress {
   list-style: none;
+  line-height: 24px;
   padding: 0px;
   margin: 0px;
 }
 
+.list_adress:first-child {
+  padding-top: 20px;
+}
+
 .footer_adress {
   color: var(--text_on_background-color);
+  font-weight: 400;
+  font-size: 14px;
   line-height: 24px;
   padding: 0px;
   margin: 0px;
   font-style: normal;
   text-decoration: none;
+}
+
+.list_adress > li:not(:last-child) {
+  padding-bottom: 9px;
+}
+
+.list_adress a {
+  color: rgba(255, 255, 255, 0.6);
 }
